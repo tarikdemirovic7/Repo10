@@ -6,10 +6,10 @@ var school = {
 }
 // End of school object
 function myFunction(name) {
-    // Only change code below this line
-    school["name"] = name;
-    return school;
-    // Only change code above this line
+// Only change code below this line
+school.name = name;
+return school;
+// Only change code above this line
 }
-console.log(myFunction("Paragon"));
+myFunction("Paragon"); // Change this line
 module.exports = { school, myFunction };

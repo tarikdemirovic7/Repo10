@@ -23,7 +23,7 @@ function myFunction() {
         },
         gold: false
     }
-    };
+};
     return myMusic;
 }
 myFunction()[2]
